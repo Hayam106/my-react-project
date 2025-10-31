@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-react-project/static/css/main.b317c929.css",
+    "main.css": "/my-react-project/static/css/main.6ef771b2.css",
     "main.js": "/my-react-project/static/js/main.ae7cb0e4.js",
     "static/js/453.afe7f0e0.chunk.js": "/my-react-project/static/js/453.afe7f0e0.chunk.js",
     "static/media/—Pngtree—artificial intelligence future technology cartoon_20081591.png": "/my-react-project/static/media/—Pngtree—artificial intelligence future technology cartoon_20081591.4ab3018133b9e688c90c.png",
     "static/media/Innovation-pana.svg": "/my-react-project/static/media/Innovation-pana.8d738e03f6d0f5de6789.svg",
     "index.html": "/my-react-project/index.html",
-    "main.b317c929.css.map": "/my-react-project/static/css/main.b317c929.css.map",
+    "main.6ef771b2.css.map": "/my-react-project/static/css/main.6ef771b2.css.map",
     "main.ae7cb0e4.js.map": "/my-react-project/static/js/main.ae7cb0e4.js.map",
     "453.afe7f0e0.chunk.js.map": "/my-react-project/static/js/453.afe7f0e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b317c929.css",
+    "static/css/main.6ef771b2.css",
     "static/js/main.ae7cb0e4.js"
   ]
 }
