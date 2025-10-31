@@ -900,11 +900,12 @@ margin-top: 15%;
 .hero::before{
   width: 150px;
     height: 150px;
-    top: 50%;
+    top: 60%;
 justify-self: anchor-center;
 }
 .content{
 padding: 0 2%;
+margin: auto;
 }
 .typed-wrapper {
 font-size: 1.5rem;
@@ -985,6 +986,7 @@ padding: 10px;
 /* Contact */
 .contact{
   height: 100vh;
+  display: contents;
 }
 
 .form-info {
