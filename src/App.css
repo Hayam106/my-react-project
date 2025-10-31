@@ -294,133 +294,7 @@ button.learn-more:hover .circle .icon.arrow {
 button.learn-more:hover .button-text {
   color: #fff;
 }
-/* ===== Responsive Design ===== */
 
-/* === التابلت === */
-@media (max-width: 992px) {
-  .header {
-    padding: 15px 30px;
-  }
-
-  .nav-links {
-    gap: 15px;
-  }
-
-  .home {
-    height: auto;
-    margin-top: 8%;
-  }
-
-  .hero {
-    width: 80%;
-  }
-
-  .hero::before {
-    width: 250px;
-    height: 250px;
-  }
-
-  h1 {
-    font-size: 2.2rem;
-  }
-
-  .typed-wrapper {
-    font-size: 1.5rem;
-    padding: 10px;
-  }
-
-  button.learn-more {
-    width: 12rem;
-    margin: 5rem 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .header {
-    padding: 10px 20px;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .home {
-    height: auto;
-    margin-top: 20%;
-  }
-
-  .hero {
-    width: 100%;
-    text-align: center;
-  }
-
-  .hero::before {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    top: 0;
-  }
-
-  .content {
-    margin-top: 5%;
-    padding: 15px;
-    align-items: center;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .typed-wrapper {
-    font-size: 1.2rem;
-    padding: 5px;
-  }
-
-  button.learn-more {
-    width: 10rem;
-    margin: 3rem auto;
-  }
-
-  button.learn-more .button-text {
-    font-size: 0.85rem;
-  }
-}
-
-/* === للموبايلات ا  === */
-@media (max-width: 480px) {
-  .header {
-    height: auto;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-  }
-
-  .logo {
-    font-size: 0.9rem;
-  }
-
-  .hero::before {
-    width: 150px;
-    height: 150px;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .typed-wrapper {
-    font-size: 1rem;
-  }
-
-  button.learn-more {
-    width: 9rem;
-    margin: 2rem auto;
-  }
-}
-
-/* /* ///////// */
 /* ===== Skills Section ===== */
 .skills-section {
   background: linear-gradient(40deg, #86a2ac, #3b1489);
@@ -515,73 +389,6 @@ button.learn-more:hover .button-text {
   transform: translate(-50%, -50%);
   color: white;
 }
-/* ===== Responsive Design for Skills Section ===== */
-@media (max-width: 992px) {
-  .skills-container {
-    width: 85%;
-    gap: 20px;
-  }
-
-  .skill {
-    width: 150px;
-  }
-
-  .arrow {
-    width: 35px;
-    height: 35px;
-    font-size: 1.2rem;
-  }
-
-  .skills-title {
-    font-size: 1.8rem;
-  }
-
-  .skills-subtitle {
-    font-size: 0.95rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .skills-container {
-    width: 90%;
-    gap: 15px;
-  }
-
-  .skill {
-    width: 130px;
-  }
-
-  .arrow {
-    display: none; /* نخفي الأسهم في الشاشات الصغيرة */
-  }
-
-  .skills-title {
-    font-size: 1.5rem;
-  }
-
-  .skills-subtitle {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .skills-container {
-    width: 100%;
-    gap: 10px;
-  }
-
-  .skill {
-    width: 110px;
-  }
-
-  .skills-title {
-    font-size: 1.3rem;
-  }
-
-  .skills-subtitle {
-    font-size: 0.85rem;
-  }
-}
 
 /* /////////////////////////////////////////////////////////////// */
 .projects {
@@ -589,7 +396,6 @@ button.learn-more:hover .button-text {
   padding: 60px 20px;
   color: #aad9e9;
 
-height: 110vh;
   background: linear-gradient(#313131a8, #000000);
 border-top:1px solid #222 ;
 }
@@ -691,42 +497,6 @@ border-top:1px solid #222 ;
   font-size: 0.95rem;
   opacity: 0.9;
 }
-@media (max-width: 576px) {
-  .project-card {
-    width: 90%;
-    height: 180px;
-  }
-
-  .overlay h3 {
-    font-size: 1rem;
-  }
-
-  .overlay p {
-    font-size: 0.85rem;
-  }
-
-  .projects-container {
-    gap: 15px;
-  }
-}
-
-/* ========================= */
-/*  التابلت */
-/* ========================= */
-@media (min-width: 577px) and (max-width: 991px) {
-  .project-card {
-    width: 45%;
-    height: 200px;
-  }
-
-  .overlay h3 {
-    font-size: 1.1rem;
-  }
-
-  .overlay p {
-    font-size: 0.9rem;
-  }
-}
 
 /* ////////////////////////////
  */
@@ -821,81 +591,6 @@ textarea {
   transform: translateY(-3px);
 }
 
-/*  الموبايل */
-@media (max-width: 576px) {
-  .contact {
-    flex-direction: column;
-    height: auto;
-    padding: 40px 20px;
-    align-items: center;
-  }
-
-  .img-form {
-    width: 100%;
-    height: 250px;
-    margin-bottom: 30px;
-  }
-
-  .form-info {
-    width: 100%;
-    height: auto;
-    padding: 20px;
-  }
-
-  .contact-title {
-    font-size: 1.8rem;
-  }
-
-  .contact-subtitle {
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-
-  .contact-form {
-    width: 100%;
-    gap: 15px;
-  }
-
-  .form-row {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .send-btn {
-    width: 100%;
-    font-size: 1rem;
-    padding: 12px;
-  }
-}
-
-/* 💻 التابلت */
-@media (min-width: 577px) and (max-width: 991px) {
-  .contact {
-    flex-direction: column;
-    height: auto;
-    padding: 50px 40px;
-    align-items: center;
-  }
-
-  .img-form {
-    width: 80%;
-    height: 300px;
-    margin-bottom: 40px;
-  }
-
-  .form-info {
-    width: 80%;
-    padding: 30px;
-  }
-
-  .contact-form {
-    width: 100%;
-  }
-
-  .send-btn {
-    padding: 12px 24px;
-  }
-}
 
 /* /////////////////////////////////////////////// */
 /* ===== Section background ===== */
@@ -908,66 +603,7 @@ textarea {
 }
 
 /* ===== The white box ===== */
-.subscribe-box {
-  position: absolute;
-  top: -80px; 
-  left: 50%;
-  transform: translateX(-50%);
-  background: #fff;
-  width: 75%;
-  max-width: 900px;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  z-index: 5;
- 
 
-}
-
-/* ===== Text ===== */
-.subscribe-box h3 {
-  margin-bottom: 20px;
-  font-size: 1.3rem;
-  color: #222;
-}
-
-/* ===== Form ===== */
-.subscribe-form {
-  display: flex;
-  align-items: center;
-  width: 100%;
-       flex-direction: row;
-    justify-content: space-between;
-}
-
-.subscribe-form input {
-  flex: 1;
-  padding: 12px 20px;
-  border: 2px solid #a54dcf;
-  border-radius: 25px 0 0 25px;
-  outline: none;
-  font-size: 1rem;
-}
-
-.subscribe-form button {
-  background: linear-gradient(to right, #a54dcf, #4a2dbf);
-  color: #fff;
-  border: none;
-  padding: 14px 25px;
-  font-size: 1rem;
-  border-radius: 0 25px 25px 0;
-  cursor: pointer;
-  transition: 0.3s;
-  width: 15%;
-}
-
-.subscribe-form button:hover {
-  opacity: 0.85;
-}
 /* ===== Subscribe Section ===== */
 .subscribe-section {
   position: relative;
@@ -1039,62 +675,6 @@ textarea {
 
 /* ===== Responsive ===== */
 
-/*  Mobile */
-@media (max-width: 576px) {
-  .subscribe-box {
-    width: 90%;
-    padding: 25px 20px;
-    top: -50px;
-  }
-
-  .subscribe-box h3 {
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-  }
-
-  .subscribe-form {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 15px;
-  }
-
-  .subscribe-form input {
-    border-radius: 25px;
-    padding: 12px;
-    font-size: 0.95rem;
-  }
-
-  .subscribe-form button {
-    width: 100%;
-    border-radius: 25px;
-    padding: 12px;
-    font-size: 1rem;
-  }
-}
-
-/*  Tablet */
-@media (min-width: 577px) and (max-width: 991px) {
-  .subscribe-box {
-    width: 85%;
-    padding: 35px;
-    top: -60px;
-  }
-
-  .subscribe-form {
-    flex-direction: row;
-    gap: 10px;
-  }
-
-  .subscribe-form input {
-    font-size: 1rem;
-    padding: 12px 18px;
-  }
-
-  .subscribe-form button {
-    width: 25%;
-    font-size: 1rem;
-  }
-}
 
 /* Footer Section */
 .modern-footer {
@@ -1160,63 +740,267 @@ textarea {
   color: #2d2d2d;
 }
 
-/* 📱 الموبايل */
-@media (max-width: 576px) {
-  .modern-footer {
-    padding: 60px 10px 20px;
-    text-align: center;
+
+/* ----- Tablets (max-width: 800px) ----- */
+@media (max-width: 900px) {
+
+/* Header */
+.header {
+padding: 15px 30px;
+}
+.header span ,.social-icons  ,.content .learn-more ,.img-form {
+
+  display: none;
+}
+.nav-links {
+gap: 15px;
+}
+
+.nav-links li {
+width: auto;
+}
+
+/* Home */
+.home {
+height: auto;
+margin-top: 8%;
+}
+
+.hero {
+width: 100%;
+}
+
+.hero::before {
+width: 250px;
+height: 250px;
+top: 15%;
+}
+
+.content {
+  width: 70%;
+align-items: start;
+text-align: center;
+}
+
+h1 {
+font-size: 2rem;
+}
+
+.typed-wrapper {
+font-size: 1.3rem;
+}
+
+
+
+/* Skills */
+.skills-container {
+width: 90%;
+gap: 15px;
+}
+
+.arrow.left, .arrow.right {
+display: none;
+}
+
+/* Projects */
+.projects{
+  margin-bottom: 5%;
+}
+.projects-container {
+flex-direction: column;
+align-items: center;
+}
+.projects-container.three {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+}
+.project-card {
+width: 95%;
+margin-bottom: 25px;
+}
+
+.project-overlay {
+font-size: 0.9rem;
+}
+
+/* Subscribe Section */
+.subscribe-box {
+width: 90%;
+padding: 25px;
+}
+
+.subscribe-form {
+flex-direction: column;
+gap: 15px;
+}
+
+.subscribe-form input,
+.subscribe-form button {
+width: 100%;
+border-radius: 25px;
+}
+
+/* Contact */
+.contact {
+flex-direction: column-reverse;
+height: auto;
+padding: 40px 20px;
+}
+
+.form-info {
+width: 100%;
+height: auto;
+}
+
+
+
+/* Footer */
+.modern-footer {
+  margin-top: 16%;
+
+}
+
+.footer-nav {
+flex-direction: row;
+gap: 15px;
+
+}
+
+.footer-icons {
+gap: 15px;
+}
+}
+
+/* ----- Mobile Phones (max-width: 480px) ----- */
+@media (max-width: 600px) {
+
+/* Header */
+.header {
+padding: 10px 15px;
+}
+
+.logo {
+font-size: 0.9rem;
+}
+.header span ,.social-icons ,h1 ,.content .learn-more ,.img-form {
+
+  display: none;
+}
+.nav-links li {
+margin-right: 20px;}
+
+/* Home */
+.home {
+height: 80vh;
+margin-top: 15%;
+}
+
+
+
+.hero::before{
+  width: 150px;
+    height: 150px;
+    top: 50%;
+justify-self: anchor-center;
+}
+.content{
+padding: 0 2%;
+}
+.typed-wrapper {
+font-size: 1.5rem;
+}
+
+
+
+/* Skills */
+.skills-section {
+height: 80vh;
+}
+.slider-wrapper{
+height: 90%;
+}
+ .skills-container {
+    width: 85%;
+    gap: 20px;
+ }
+
+
+  .skills-title {
+    font-size: 1.8rem;
   }
 
-  .footer-container {
-    gap: 25px;
+  .skills-subtitle {
+    font-size: 0.95rem;
   }
 
-  .footer-logo {
-    font-size: 1.3rem;
-  }
 
-  .footer-nav {
-    flex-direction: column;
-    gap: 10px;
-  }
+/* Projects */
 
-  .footer-nav a {
-    font-size: 1rem;
-  }
+.projects .buttons{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+}
 
-  .footer-icons {
+    .project-card {
+        width: 90%;
+        margin-bottom: 25px;
+        height: auto;
+    }
+
+.project-overlay {
+font-size: 0.8rem;
+padding: 8px;
+}
+  .projects-container {
     gap: 15px;
-    font-size: 1.3rem;
-    justify-content: center;
+    padding: 5px;
   }
 
-  .footer-copy {
-    font-size: 0.85rem;
-    margin-top: 20px;
-  }
+/* Subscribe Section */
+.subscribe-box {
+  display: block;
+  position: static;
+width: 100%;
+padding: 20px;
+margin: 5% 0;
+transform: translateX(0%);
 }
 
-/*  التابلت */
-@media (min-width: 577px) and (max-width: 991px) {
-  .modern-footer {
-    padding: 70px 30px 25px;
-  }
-
-  .footer-container {
-    gap: 30px;
-  }
-
-  .footer-nav {
-    gap: 20px;
-  }
-
-  .footer-icons {
-    gap: 20px;
-    font-size: 1.3rem;
-  }
-
-  .footer-copy {
-    font-size: 0.9rem;
-  }
+.subscribe-box h3 {
+font-size: 1.1rem;
 }
 
+.subscribe-form input {
+font-size: 0.9rem;
+padding: 10px;
+}
+
+.subscribe-form button {
+font-size: 0.9rem;
+padding: 10px;
+}
+
+/* Contact */
+.contact{
+  height: 100vh;
+}
+
+.form-info {
+padding: 20px;
+}
+
+.contact-title {
+font-size: 1.5rem;
+}
+
+/* Footer */
+.footer-logo {
+font-size: 1.2rem;
+}
+
+.footer-copy {
+font-size: 0.8rem;
+}
+}
