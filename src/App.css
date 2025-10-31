@@ -848,8 +848,9 @@ padding: 40px 20px;
 }
 
 .form-info {
-width: 100%;
-height: auto;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
 }
 
 
@@ -904,8 +905,8 @@ margin-top: 15%;
 justify-self: anchor-center;
 }
 .content{
-padding: 0 2%;
-margin: auto;
+padding: 5% 2%;
+width: 100%;
 }
 .typed-wrapper {
 font-size: 1.5rem;
@@ -956,7 +957,7 @@ padding: 8px;
 }
   .projects-container {
     gap: 15px;
-    padding: 5px;
+    padding: 0px;
   }
 
 /* Subscribe Section */
@@ -987,16 +988,34 @@ padding: 10px;
 .contact{
   height: 100vh;
   display: contents;
+  
 }
 
-.form-info {
-padding: 20px;
+.form-info input ,textarea {
+  flex: 1;
+  padding: 12px 20px;
+  border: 2px solid #a54dcf;
+  border-radius: 15px ;
+  outline: none;
+  font-size: rem;
+  justify-items: center;
 }
-
+.form-info .send-btn{
+  padding: 10px 10px;
+  border: 2px solid #a54dcf;
+  border-radius: 15px ;
+  outline: none;
+  font-size: 1rem;
+  justify-items: center;
+}
 .contact-title {
-font-size: 1.5rem;
+        font-size: 2rem;
+        color: #aad9e9;
 }
-
+.contact-subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
 /* Footer */
 .footer-logo {
 font-size: 1.2rem;
