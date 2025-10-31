@@ -6,15 +6,43 @@ function Projects() {
   const [activeCategory, setActiveCategory] = useState("project1");
 
   const projects = [
-    { id: 1, title: "React Portfolio", category: "React", img: "image_merge.jpg" },
-    { id: 2, title: "Plant Nursery", category: "js", img: "js-prog.png" },
-    { id: 3, title: "Women's Watches", category: "project1", img: "prog1.png" },
-    { id: 4, title: "Makeup Store", category: "project1", img: "New Project.png" },
-    { id: 5, title: "Architectural Wonders", category: "project1", img: "boot-prog.png" },
-
+    {
+      id: 1,
+      title: "React Portfolio",
+      desc: "Personal portfolio built with React",
+      category: "React",
+      img: "image_merge.jpg",
+    },
+    {
+      id: 2,
+      title: "Plant Nursery",
+      desc: "Green vibes online plant shop",
+      category: "js",
+      img: "js-proj.png",
+    },
+    {
+      id: 3,
+      title: "Women's Watches",
+      desc: "Elegant watches e-commerce site",
+      category: "project1",
+      img: "proj1.png",
+    },
+    {
+      id: 4,
+      title: "Makeup Store",
+      desc: "Modern beauty store website",
+      category: "project1",
+      img: "New Project.png",
+    },
+    {
+      id: 5,
+      title: "Architectural Wonders",
+      desc: "Architecture showcase landing page",
+      category: "project1",
+      img: "boot-proj.png",
+    },
   ];
 
-  // فلترة ال progect   حسب category
   const filteredProjects = projects.filter(
     (project) => project.category === activeCategory
   );
@@ -50,18 +78,21 @@ function Projects() {
         </button>
       </div>
 
-<div
-  className={`projects-container ${
-    filteredProjects.length === 1 ? "single" : "three"
-  }`}
->        
+      <div
+        className={`projects-container ${
+          filteredProjects.length === 1 ? "single" : "three"
+        }`}
+      >
         {activeCategory === "contact" ? (
           <Contact />
         ) : (
           filteredProjects.map((project) => (
             <div key={project.id} className="project-card">
               <img src={project.img} alt={project.title} />
-              <h3>{project.title}</h3>
+              <div className="overlay">
+                <h3>{project.title}</h3>
+                <p>{project.desc}</p>
+              </div>
             </div>
           ))
         )}
